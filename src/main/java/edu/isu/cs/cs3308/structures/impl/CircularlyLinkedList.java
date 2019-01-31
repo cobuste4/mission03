@@ -2,6 +2,15 @@ package edu.isu.cs.cs3308.structures.impl;
 
 import edu.isu.cs.cs3308.Node;
 
+/**
+ * @author Steve Coburn
+ * DueDate: 27 January 2019
+ * ISUCourse: CS3308
+ * Instructor: Isaac Griffith
+ * Project: campaign01
+ * Description: This class extends a SinglyLinkedList to ensure the end points to the beginning
+ */
+
 public class CircularlyLinkedList<E> extends SinglyLinkedList<E> {
 
     // CONSTURCTOR

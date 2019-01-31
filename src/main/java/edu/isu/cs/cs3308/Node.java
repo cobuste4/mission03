@@ -1,5 +1,12 @@
 package edu.isu.cs.cs3308;
 
+/**
+ * @author Steve Coburn
+ * ISUCourse: CS3308
+ * Instructor: Isaac Griffith
+ * Description: This class is the basis for all list structures
+ */
+
 public class Node<E> {
     private E contents;
     private Node<E> next;

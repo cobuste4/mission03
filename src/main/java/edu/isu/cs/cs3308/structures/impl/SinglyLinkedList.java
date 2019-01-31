@@ -162,7 +162,7 @@ public class SinglyLinkedList<E> implements List<E> {
         Node<E> tempNode = head;
         for (int i = 0; i < size; i++) {
             stringToOutput += tempNode.getData().toString();
-            stringToOutput += " ";
+            stringToOutput += "\r\n";
             tempNode = tempNode.getNext();
         }
         System.out.println(stringToOutput);
